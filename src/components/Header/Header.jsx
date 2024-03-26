@@ -5,17 +5,21 @@ import './Header.scss';
 const Header = () => {
     return (
         <div className="header">
-            <div className="header__logo">
-                <img src="https://s3-alpha-sig.figma.com/img/8354/c0a8/579180fd272afd63598cafc72d2f6cc3?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ocYY6jMzDuHQrmgMeIfGWcP9XnwZW4qslBwUYJl8GH17HlVQjIA3FE3dGfyBcbO7KHC3JOwp~7i-j5Kj3uQBa1shZbp4jZIEkfoFNaAIdvFXdu4Pbxl~c7V~clz~vQwvh85ediGm1Ig~BZlL9vsif2G7cG4IqGZ1hhB~sbijN5rcBRTN5RIwOglZpPcvYNY1CB3Zm0kE2TsuZeTKLNPleuO0dbIbe1K76v5QN~bwP5R3bHlicbq~EIPw59BW5QwQhUySKU~1Fz8SrOITnRcn9b8noxow1zsumLEP8uyX2ldlyl3QRwUdgVqHWNSfXJiaI21af5Rhn89hpvrAeggE4A__" alt="CodeLab Logo" />
+            <div className='header__wrapper'>
+                <div className="header__logo">
+                    <img className='header__logo__logo1' src="https://s3-alpha-sig.figma.com/img/5aea/0de6/29d7575ec38bdbb0216201cdbb98ff88?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DmLTVRFW7Kijl0q26aq3xBktTaUsu9WXM3LMofxRmSYAkGWiyu~P1ygCxZDq1V2LzyTTjIqfPHI3kGAsEXQj2vgvb01sPM-sc2MppGVzt-DZCVNKbcapIHCBBOt99YoW1XM4HoypebG-NxLqZlQWhdXKjVs5hN6CBcGow6E8I7Le~mpL-~wzv~AlDzUK0N8yLgf6DuL1wDvuouMi4n5hG-2onEkSmiI2pEj33BeseYaUwq37r2HyvONkL4F-y7U3CgRJg9KRKQYDTH5J7s0sKkB99tZ6QAG3nhzKtKCqRIWCGF42x-skj6hTiZ6txXzZz6VdybG46lsruoXScNH7GA__" alt="CodeLab Logo" />
+                </div>
+                <div className="header__info">
+                    <h1 className="header__info__title">
+                        CodeLab
+                    </h1>
+                    <h2 className="header__info__subtitle">
+                        Лаборатория программирования для новичков
+                    </h2>
+                </div>
+                
             </div>
-            <div className="header__info">
-                <h1 className="header__info__title">
-                    CodeLab
-                </h1>
-                <h2 className="header__info__subtitle">
-                    Лаборатория программирования для новичков
-                </h2>
-            </div>
+
             <div className="header__description">
                 <h1 className="header__title">
                     Тренируй свои навыки не напрягаясь

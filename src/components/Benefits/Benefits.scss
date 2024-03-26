@@ -1,0 +1,26 @@
+.benefits{
+    background-image: url(https://s3-alpha-sig.figma.com/img/9b3c/78cb/ba32bf632835d485ce3bf5a985fdae31?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AnECNTmCApjuGmqnB1nPl2d9~UZ1zc768WHZcBnWJRB2-fDmRevuqZhnfi7QDnv2Paq3VzMLZPhnrl-UJ0sdRWdLzAPiBuEo7Rivz7OHsN0hY5xF~i9xCoZSQ1xOEEoRrI5ExyyHQp2pxvMRfCh0LCJbZ6Vm4K8s2pxBRE-9bhEUaL5v1SJ34W9l64C8TwImJ4OEbEJROJLO05t1HrxlASggZZ0kbCfIZSwJaP36RRBp4Bt6EGC5Ug6m~Igr1cMYH~3LX1fndEPqHjp7aHUHqhsGdZzlOK7AY2pvY6G2~dcbz4vvG3MODpwF1lj0R3Xf4~ABF-uerAORxqTniDS3yQ__);
+    margin-top: 150px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: white;
+
+    hr{
+        visibility: hidden;
+    }
+
+    &__maintext{
+        align-items: center;
+        text-align: center;
+        margin-top: 75px;
+
+        h1{
+            font-size: 50px;
+        }
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+    }
+}
