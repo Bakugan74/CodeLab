@@ -1,0 +1,51 @@
+.footer{
+
+    &__img{
+        margin-top: 100px;
+        display:flex;
+        justify-content: center;
+
+        &__logo{
+            width: 150px;
+            border-radius: 50%;
+        }
+
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+
+    }
+    &__item{
+        padding: 4%;
+
+        &__title{
+            list-style-type: none; 
+            text-decoration: none;
+        }
+        &__description{
+            list-style-type: none; 
+            text-decoration: none;
+            color: black;
+            li{
+                margin-top: 5px;
+                
+                a{
+                    text-decoration: none;
+                    color: black; 
+                }
+            }
+        }
+        &__massengers{
+            display: flex;
+            justify-content: center;
+
+            &__logo{
+                padding: 10px
+            }
+        }
+    }
+   
+}
+
+

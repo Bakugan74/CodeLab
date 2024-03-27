@@ -4,6 +4,7 @@ import Effect from '../Frame2/Effect.jsx';
 import Header from '../Header/Header.jsx';
 import Training from '../Training/Training.jsx';
 import Benefits from '../Benefits/Benefits';
+import Footer from '../Footer/Footer';
 
 
 const Layout = () => {
@@ -13,6 +14,7 @@ const Layout = () => {
             <Effect />
 			<Benefits />
 			<Training />
+			<Footer />
 			
 
 		</>

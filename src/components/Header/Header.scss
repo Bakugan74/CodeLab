@@ -1,19 +1,59 @@
 .header {
-    background-image: url(https://s3-alpha-sig.figma.com/img/9b3c/78cb/ba32bf632835d485ce3bf5a985fdae31?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MnNruJWTwOFMtJ6fcYUWNUIdABYCBKO3HHYanzAeKkY9rw6wf2vE9iqMRH8KeNQSOowjxZLJo3UAzelWqPUTewDcQ-9wxUsSomOfqecZkoPELryy6is7xcbZXCWxeRv42ylc3DNPEnYyngL41RX2H6ZTJI~hTZ8a65l3yUcXetjb~3BQKc8lQkRo6vUgFiD86jqiMoInwKZgPk6Re3jvr1op8QPHLZpYu4mO-EABZqZHqud7AKQI6Wl5pmml4JnOQywkr-XWhUy-9jLjxK-zi0YG4ZJc~be54RmbOU-obMq3yN9kBtZmKF8lJf2EtD77VR6lM8F6TzGtKve9SMuvbQ__);
+    background-image: url(https://s3-alpha-sig.figma.com/img/9b3c/78cb/ba32bf632835d485ce3bf5a985fdae31?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AnECNTmCApjuGmqnB1nPl2d9~UZ1zc768WHZcBnWJRB2-fDmRevuqZhnfi7QDnv2Paq3VzMLZPhnrl-UJ0sdRWdLzAPiBuEo7Rivz7OHsN0hY5xF~i9xCoZSQ1xOEEoRrI5ExyyHQp2pxvMRfCh0LCJbZ6Vm4K8s2pxBRE-9bhEUaL5v1SJ34W9l64C8TwImJ4OEbEJROJLO05t1HrxlASggZZ0kbCfIZSwJaP36RRBp4Bt6EGC5Ug6m~Igr1cMYH~3LX1fndEPqHjp7aHUHqhsGdZzlOK7AY2pvY6G2~dcbz4vvG3MODpwF1lj0R3Xf4~ABF-uerAORxqTniDS3yQ__);
     background-size: cover;
     background-position: center;
-    height: 800px;
     width: 100%;
     color: white;
+    height: 800px;
+    &__wrapper{
+        display: flex;
+    }
 
     &__logo {
-        width: 150px;
+        
         margin-top: 10px;
         margin-left: 10px;
+        img{
+            width: 250px;
+            border-radius: 50%;
+        }
     }
     &__info {
+        margin-left: 10px;
+        margin-top: 50px;
         &__title {
-            font-size: 60px;
+            font-size: 48px;
         }
+        &__subtitle{
+            font-size: 24px;
+        }
+    }
+
+    &__description{
+        margin-top: 100px;
+        text-align: center;
+
+        h1{
+            font-size: 60px;
+
+        }
+        h2{
+            font-size: 34px;
+        }
+    }
+
+    &__button{
+        margin-top: 100px;
+    }
+    &__have-account{
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: none;
+            color:inherit;
+
+    }
+    &__account-link{
+        text-decoration: none;
+        color:inherit;
     }
 }
