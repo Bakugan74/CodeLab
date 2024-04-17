@@ -1,10 +1,10 @@
 import React from "react"
 import './Footer.scss'
-
+import Logo from '../Images/logo.png'
 const Footer = () =>{
     return(
         <div className="footer">
-            <div className="footer__img"><img className="footer__img__logo" src="https://s3-alpha-sig.figma.com/img/5aea/0de6/29d7575ec38bdbb0216201cdbb98ff88?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DmLTVRFW7Kijl0q26aq3xBktTaUsu9WXM3LMofxRmSYAkGWiyu~P1ygCxZDq1V2LzyTTjIqfPHI3kGAsEXQj2vgvb01sPM-sc2MppGVzt-DZCVNKbcapIHCBBOt99YoW1XM4HoypebG-NxLqZlQWhdXKjVs5hN6CBcGow6E8I7Le~mpL-~wzv~AlDzUK0N8yLgf6DuL1wDvuouMi4n5hG-2onEkSmiI2pEj33BeseYaUwq37r2HyvONkL4F-y7U3CgRJg9KRKQYDTH5J7s0sKkB99tZ6QAG3nhzKtKCqRIWCGF42x-skj6hTiZ6txXzZz6VdybG46lsruoXScNH7GA__" alt="" /></div>    
+            <div className="footer__img"><img className="footer__img__logo" src={Logo} alt="" /></div>    
             <div className="footer__wrapper">
                 <div className="footer__item">
                     <div className="footer__item__title"> <h3>О ПРОЕКТЕ</h3> </div>

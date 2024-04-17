@@ -5,6 +5,7 @@ import Header from '../Header/Header.jsx';
 import Training from '../Training/Training.jsx';
 import Benefits from '../Benefits/Benefits';
 import Footer from '../Footer/Footer';
+import Survey from '../Survey/Survey';
 
 
 const Layout = () => {
@@ -15,6 +16,7 @@ const Layout = () => {
 			<Benefits />
 			<Training />
 			<Footer />
+			<Survey />
 			
 
 		</>
