@@ -1,12 +1,10 @@
-
-
-.header {
+.survey {
     background-image: url('../Images/background.jpeg');
     background-size: cover;
     background-position: center;
     width: 100%;
     color: white;
-    height: 800px;
+    height: 1000px;
     &__wrapper{
         display: flex;
     }
@@ -30,7 +28,7 @@
         }
     }
     &__description{
-        margin-top: 100px;
+        margin-top: 30px;
         text-align: center;
 
         h1{
@@ -39,20 +37,30 @@
         }
         h2{
             font-size: 34px;
+            line-height: 1.5;
         }
-    }
-    &__button{
-        margin-top: 100px;
-    }
-    &__have-account{
-        text-align: center;
-        margin-top: 10px;
-        text-decoration: none;
-            color:inherit;
+
+        &__photos{
+            display: flex;
+            justify-content: center;
+
+        }
+
+        &__logos{
+            width: 100%;
+            margin-top: 50px;
+            padding: auto;
+
+
+            img{
+                width: 150px;
+                border-radius: 43%;
+            }
+            p{
+                font-size: 24px;
+            }
+        }
 
     }
-    &__account-link{
-        text-decoration: none;
-        color:inherit;
-    }
+    
 }
