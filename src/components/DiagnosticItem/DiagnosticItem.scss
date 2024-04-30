@@ -1,0 +1,29 @@
+.diagnostic__description{
+    
+    &__wrapper{
+
+        &__item{
+            margin: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+
+            display: flex;
+
+            img{
+                width: 70px;
+            }
+
+            &__photo{
+                margin-right: 20px;
+                
+            }
+
+
+            &__text{
+                font-size: 24px;
+                font-style: italic;
+            }
+        }
+    
+    }
+}
