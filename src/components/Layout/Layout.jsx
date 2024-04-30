@@ -6,6 +6,7 @@ import Training from '../Training/Training.jsx';
 import Benefits from '../Benefits/Benefits';
 import Footer from '../Footer/Footer';
 import Survey from '../Survey/Survey';
+import Personality from '../Personality/Personality';
 
 
 const Layout = () => {
@@ -17,7 +18,7 @@ const Layout = () => {
 			<Training />
 			<Footer />
 			<Survey />
-			
+			<Personality/>
 
 
 
