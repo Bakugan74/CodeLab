@@ -1,0 +1,62 @@
+.diagnostic {
+    background-image: url('../Images/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: white;
+    height:970px;
+    &__wrapper{
+        display: flex;
+    }
+    &__logo {
+        
+        margin-top: 10px;
+        margin-left: 10px;
+        img{
+            width: 250px;
+            border-radius: 50%;
+        }
+    }
+    &__info {
+        margin-left: 10px;
+        margin-top: 50px;
+        &__title {
+            font-size: 48px;
+        }
+        &__subtitle{
+            font-size: 24px;
+        }
+    }
+    &__description{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        margin-top: 30px;
+        text-align: center;
+        h1{
+            font-size: 60px;
+
+        }
+        h2{
+            font-size: 34px;
+            line-height: 1.5;
+        }
+
+        &__box{
+            border-radius: 30px;
+            width: auto;
+            height: auto;
+            background: linear-gradient(#3E1855, #953256);
+        }
+
+        &__subtitle{
+            margin-top: 70px;
+            font-size: 20px;
+        }
+        &__button{
+            margin-top: 20px;
+        }
+    }
+    
+}
