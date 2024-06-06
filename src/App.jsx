@@ -1,12 +1,17 @@
 
-// import { Route } from "react-router-dom";
+import { Routes,Route } from "react-router-dom";
 import './App.css'
-import Layout from "./components/Layout/Layout";
+import Layout from "./Pages/Layout";
+import SurveyPage from "./Pages/Survey"
+
 
 function App() {
 	return (
 		<>
-			<Layout />
+		<Routes>
+			<Route path="/" element={<Layout />}></Route>
+			<Route path="SurveyPage" element={< SurveyPage/>}></Route>
+		</Routes>
 		</>
 	);
 }
