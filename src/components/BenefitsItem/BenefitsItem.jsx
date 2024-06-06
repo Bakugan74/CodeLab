@@ -10,19 +10,23 @@ const BenefitsItem = () => {
             title: "Оценка способностей",
             list_1: "Развитие навыков будущего.",
             list_2: "Развитие новых интересов и хобби.",
+            href: '#',
         },
         {
             image: Benefits2,
             title: "Ежедневные тренировки",
             list_1: "Развитие навыков адаптации к изменяющемуся рынку труда.",
             list_2: "Расширение возможностей карьерного роста.",
+            href: '#',
         },
         {
             image: Benefits3,
             title: "Статистика развития",
             list_1: "Поддержка молодого поколения.",
             list_2: "Решение повседневных задач.",
+            href: '#',
         },
+        
         
     ];
 
@@ -31,7 +35,7 @@ const BenefitsItem = () => {
             {BenefitsArticles.map((article, index) => (
                 <div key={index} className='benefits-item__wrapper'>
                 
-                        <img className='benefits-item__image' src={article.image} alt="" />
+                        <a href={article.href}><img className='benefits-item__image' src={article.image} alt="" /></a>
               
                     <div className='benefits-item__title'>
                         <p>{article.title}</p>

@@ -33,7 +33,7 @@ const Diagnostic = () => {
                 </div>
                 <p className="diagnostic__description__subtitle">Разработано совместно с учёными РАН. <br />Проверено на выборке из 7 миллионов пользователей.</p>
                 <div className='diagnostic__description__button'>
-                    <DiagnosticButton/>
+                <DiagnosticButton/>
                 </div>
 
             </div>

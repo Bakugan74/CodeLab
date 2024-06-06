@@ -19,7 +19,7 @@ const DiagnosticItem = () => {
         {
             image: Diagnostic3,
             text: "Получите персональные рекомендации по когнитивному развитию",
-        }
+        },
     ];
 
     return (
