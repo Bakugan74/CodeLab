@@ -20,51 +20,51 @@ const Survey = () => {
 
     const questions = [
         {
-            question: 'Как вы odughnoiudfghn остное развитие?',
+            question: 'Как вы видите развитие?',
             answers: [
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/8e09/cdc3/7c2342d49fedf093841995c28857e633?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lm4jN3SLl0pbm-XoRGjAwP9w3Ap2NuD0Acs4sJkkLxOnpeqfQSL5Mk3BRObzILmvyvK~8K22s3bISSE0WyR8XvMmE2I-C~fiF7XENzK8BYYoFKwFt30zfHI2rB64AZ6xG6EOmXe1zMAyWoaB3kfCSWMekd79Ubmed6qLXSxhSVWqnea2zWafSLDiPcKVuXNrPw5ijRbqP96A48VLf-91D2LmvpfMs~UFMjsueajL72W2NfE0vN3iz5ttWD~LYKFkSscL9sCbU7EU4IRqWkXCan9jTOUJtyBesD7OrLI7Jxded52NODtcchdOLMY2M5aF5~k0yY1D0dmxyTFS9b4OkA__',
+                    image: Emoji_1,
                     text: ' очень плохо'
                 },
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/1281/d3db/c8292b5ccb23ff0ea078872bf76684c0?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DFeHEUUVxCSe-qor9UoYRPsTKhguxViPBBmnMoLBglXVz7X4n-0LZ5OMKkX6o7~dQXKohbIN7L-SAKv9d4DKTPBY4azDs8bSOFeH3wtn8bPsilNC45nIqIJyDqwmxrYlITX-KlLlyfUdH-UezcjOX83LhoyfuFGltE2e1K~EEs4mzJwmZCbCnMEOtyh0EoJXCLTVUMEVmM~JDSYhm0AmDZRNI1agog7zbPY-D7alrMLSYyEsrsqHcoDtzOHx11qarZuAZgrqUZoziVvsxes5wTDNv-YXq80faJdRjtI3FoScYzFoDSbKO0mNqNoRJhdwBli0I7gksv3SW-kFvEXwRQ__',
+                    image: Emoji_2,
                     text: 'плохо'
                 },
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/e940/157f/b9ed010c4c24733283d4153347da8869?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q3ynbwEudceffRtr5lFWsfMGakQBgTwbkLgxBmNi~LNuwz-RszhbUruNtPbBUBLREUxNhS7zWf3lZBvFuhwdEdbC34~FSi~pUWpuGjvo6THuNUnLQevHoDCXb5xurIGwDvl8EEF~6gdfKMt5N1C4J4~8UARv2li3UBX6psUZxS~tQ85~M9uGuBQwxmk0rR4NfAC8k4W7g2Lpm-VMizdzboEanZEPQGpAdPYvv0zI2GEupITzEOPKK2T~3mrbgjcRoFqbJREuurI~-uHp1wxXsEZGC-gT82XH9dmoTK3t-hlKZP3s21XkmuZUUYxiD~E3d736gf2v2XQb0kIGYZLCrg__',
+                    image: Emoji_3,
                     text: 'удвовлетворительно'
                 },
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/5acf/9ed1/c5d1e73525247287d21a1916bb0ccabb?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=myGWC9nGzFOCSJCpxqwNHXBQCk2YjpLPiKAZwFBdiWMBD0avxr27CR6b9nj~agK6Hi3OE~UNYW92CfsQecku4dSs1DNWmPK-E8xecV80rcxyQfZAJfZtTscTNjRK-q6zUEvnMEgqcJTJXqNJGNWZmNQ3o80AMSnNNMGFdA2tqofddqXmNu82Ia~XAv2D2fHaDOVV-6jMPHfGzReoCb~BTNmqMjAxSTqsOK1DixdBqHOSiRlPkEyQyHrXXRfPuyIAfVpU3be1ah8QgVCFQCFEO7gwnTq0kOY7X5JjBuNHD0mgRXPE2Nufce8yOMminz3R0vKoVgWDvrVx-uVgdmfBTQ__',
+                    image: Emoji_4,
                     text: 'хорошо'
                 },
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/2331/c498/8e3dc348bda9ec69435493cedecff95e?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tx7-qvE-qFtSxBFaHbkrP651WGbevQxq3dVq7gQoACmXtg94TSpDQvti4DsicFCM8nZdjwhdQGYidxABQLFa~AVbi1gi9PsxftZpJi2qs~1xz4nlKRqT2Je1f0oVWc5j9VWe~vNquDsJODD8aYOriPGwNGam80Op7EfkRzV8RSq9IkXJ4LFLWDENy4w95RVMVGJjJsYs7844YAGstwXUYxTXCO6rP4QfXjzthVRk2PeiIbU3hDX4XvUxa2qtcX428GPd7LJympIb0Zyc~ubxAokSUkfvIsE7mLbL0IcXm2D778KlBBOdIZO12A4CmZ1q~bZXdb4~1qWEpPiwRZFDaw__',
+                    image: Emoji_5,
                     text: 'отлично'
                 }
             ]
         },
         {
-            question: 'Как вы оцениваdfkgm dkfgm[psdf imgp[sdfkm gp[sdkmg p[sdkmg p[]sdmg ]psdfkm g]p[kgmазвитие?',
+            question: 'личностное развитие?',
             answers: [
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/8e09/cdc3/7c2342d49fedf093841995c28857e633?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lm4jN3SLl0pbm-XoRGjAwP9w3Ap2NuD0Acs4sJkkLxOnpeqfQSL5Mk3BRObzILmvyvK~8K22s3bISSE0WyR8XvMmE2I-C~fiF7XENzK8BYYoFKwFt30zfHI2rB64AZ6xG6EOmXe1zMAyWoaB3kfCSWMekd79Ubmed6qLXSxhSVWqnea2zWafSLDiPcKVuXNrPw5ijRbqP96A48VLf-91D2LmvpfMs~UFMjsueajL72W2NfE0vN3iz5ttWD~LYKFkSscL9sCbU7EU4IRqWkXCan9jTOUJtyBesD7OrLI7Jxded52NODtcchdOLMY2M5aF5~k0yY1D0dmxyTFS9b4OkA__',
+                    image: Emoji_1,
                     text: ' очень плохо'
                 },
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/1281/d3db/c8292b5ccb23ff0ea078872bf76684c0?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DFeHEUUVxCSe-qor9UoYRPsTKhguxViPBBmnMoLBglXVz7X4n-0LZ5OMKkX6o7~dQXKohbIN7L-SAKv9d4DKTPBY4azDs8bSOFeH3wtn8bPsilNC45nIqIJyDqwmxrYlITX-KlLlyfUdH-UezcjOX83LhoyfuFGltE2e1K~EEs4mzJwmZCbCnMEOtyh0EoJXCLTVUMEVmM~JDSYhm0AmDZRNI1agog7zbPY-D7alrMLSYyEsrsqHcoDtzOHx11qarZuAZgrqUZoziVvsxes5wTDNv-YXq80faJdRjtI3FoScYzFoDSbKO0mNqNoRJhdwBli0I7gksv3SW-kFvEXwRQ__',
+                    image: Emoji_2,
                     text: 'плохо'
                 },
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/e940/157f/b9ed010c4c24733283d4153347da8869?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q3ynbwEudceffRtr5lFWsfMGakQBgTwbkLgxBmNi~LNuwz-RszhbUruNtPbBUBLREUxNhS7zWf3lZBvFuhwdEdbC34~FSi~pUWpuGjvo6THuNUnLQevHoDCXb5xurIGwDvl8EEF~6gdfKMt5N1C4J4~8UARv2li3UBX6psUZxS~tQ85~M9uGuBQwxmk0rR4NfAC8k4W7g2Lpm-VMizdzboEanZEPQGpAdPYvv0zI2GEupITzEOPKK2T~3mrbgjcRoFqbJREuurI~-uHp1wxXsEZGC-gT82XH9dmoTK3t-hlKZP3s21XkmuZUUYxiD~E3d736gf2v2XQb0kIGYZLCrg__',
+                    image: Emoji_3,
                     text: 'удвовлетворительно'
                 },
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/5acf/9ed1/c5d1e73525247287d21a1916bb0ccabb?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=myGWC9nGzFOCSJCpxqwNHXBQCk2YjpLPiKAZwFBdiWMBD0avxr27CR6b9nj~agK6Hi3OE~UNYW92CfsQecku4dSs1DNWmPK-E8xecV80rcxyQfZAJfZtTscTNjRK-q6zUEvnMEgqcJTJXqNJGNWZmNQ3o80AMSnNNMGFdA2tqofddqXmNu82Ia~XAv2D2fHaDOVV-6jMPHfGzReoCb~BTNmqMjAxSTqsOK1DixdBqHOSiRlPkEyQyHrXXRfPuyIAfVpU3be1ah8QgVCFQCFEO7gwnTq0kOY7X5JjBuNHD0mgRXPE2Nufce8yOMminz3R0vKoVgWDvrVx-uVgdmfBTQ__',
+                    image: Emoji_4,
                     text: 'хорошо'
                 },
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/2331/c498/8e3dc348bda9ec69435493cedecff95e?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tx7-qvE-qFtSxBFaHbkrP651WGbevQxq3dVq7gQoACmXtg94TSpDQvti4DsicFCM8nZdjwhdQGYidxABQLFa~AVbi1gi9PsxftZpJi2qs~1xz4nlKRqT2Je1f0oVWc5j9VWe~vNquDsJODD8aYOriPGwNGam80Op7EfkRzV8RSq9IkXJ4LFLWDENy4w95RVMVGJjJsYs7844YAGstwXUYxTXCO6rP4QfXjzthVRk2PeiIbU3hDX4XvUxa2qtcX428GPd7LJympIb0Zyc~ubxAokSUkfvIsE7mLbL0IcXm2D778KlBBOdIZO12A4CmZ1q~bZXdb4~1qWEpPiwRZFDaw__',
+                    image: Emoji_5,
                     text: 'отлично'
                 }
             ]
@@ -73,23 +73,23 @@ const Survey = () => {
             question: 'Как вы оцениваете своё личностное развитие?',
             answers: [
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/8e09/cdc3/7c2342d49fedf093841995c28857e633?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lm4jN3SLl0pbm-XoRGjAwP9w3Ap2NuD0Acs4sJkkLxOnpeqfQSL5Mk3BRObzILmvyvK~8K22s3bISSE0WyR8XvMmE2I-C~fiF7XENzK8BYYoFKwFt30zfHI2rB64AZ6xG6EOmXe1zMAyWoaB3kfCSWMekd79Ubmed6qLXSxhSVWqnea2zWafSLDiPcKVuXNrPw5ijRbqP96A48VLf-91D2LmvpfMs~UFMjsueajL72W2NfE0vN3iz5ttWD~LYKFkSscL9sCbU7EU4IRqWkXCan9jTOUJtyBesD7OrLI7Jxded52NODtcchdOLMY2M5aF5~k0yY1D0dmxyTFS9b4OkA__',
+                    image: Emoji_1,
                     text: ' очень плохо'
                 },
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/1281/d3db/c8292b5ccb23ff0ea078872bf76684c0?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DFeHEUUVxCSe-qor9UoYRPsTKhguxViPBBmnMoLBglXVz7X4n-0LZ5OMKkX6o7~dQXKohbIN7L-SAKv9d4DKTPBY4azDs8bSOFeH3wtn8bPsilNC45nIqIJyDqwmxrYlITX-KlLlyfUdH-UezcjOX83LhoyfuFGltE2e1K~EEs4mzJwmZCbCnMEOtyh0EoJXCLTVUMEVmM~JDSYhm0AmDZRNI1agog7zbPY-D7alrMLSYyEsrsqHcoDtzOHx11qarZuAZgrqUZoziVvsxes5wTDNv-YXq80faJdRjtI3FoScYzFoDSbKO0mNqNoRJhdwBli0I7gksv3SW-kFvEXwRQ__',
+                    image: Emoji_2,
                     text: 'плохо'
                 },
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/e940/157f/b9ed010c4c24733283d4153347da8869?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q3ynbwEudceffRtr5lFWsfMGakQBgTwbkLgxBmNi~LNuwz-RszhbUruNtPbBUBLREUxNhS7zWf3lZBvFuhwdEdbC34~FSi~pUWpuGjvo6THuNUnLQevHoDCXb5xurIGwDvl8EEF~6gdfKMt5N1C4J4~8UARv2li3UBX6psUZxS~tQ85~M9uGuBQwxmk0rR4NfAC8k4W7g2Lpm-VMizdzboEanZEPQGpAdPYvv0zI2GEupITzEOPKK2T~3mrbgjcRoFqbJREuurI~-uHp1wxXsEZGC-gT82XH9dmoTK3t-hlKZP3s21XkmuZUUYxiD~E3d736gf2v2XQb0kIGYZLCrg__',
+                    image: Emoji_3,
                     text: 'удвовлетворительно'
                 },
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/5acf/9ed1/c5d1e73525247287d21a1916bb0ccabb?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=myGWC9nGzFOCSJCpxqwNHXBQCk2YjpLPiKAZwFBdiWMBD0avxr27CR6b9nj~agK6Hi3OE~UNYW92CfsQecku4dSs1DNWmPK-E8xecV80rcxyQfZAJfZtTscTNjRK-q6zUEvnMEgqcJTJXqNJGNWZmNQ3o80AMSnNNMGFdA2tqofddqXmNu82Ia~XAv2D2fHaDOVV-6jMPHfGzReoCb~BTNmqMjAxSTqsOK1DixdBqHOSiRlPkEyQyHrXXRfPuyIAfVpU3be1ah8QgVCFQCFEO7gwnTq0kOY7X5JjBuNHD0mgRXPE2Nufce8yOMminz3R0vKoVgWDvrVx-uVgdmfBTQ__',
+                    image: Emoji_4,
                     text: 'хорошо'
                 },
                 {
-                    image: 'https://s3-alpha-sig.figma.com/img/2331/c498/8e3dc348bda9ec69435493cedecff95e?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tx7-qvE-qFtSxBFaHbkrP651WGbevQxq3dVq7gQoACmXtg94TSpDQvti4DsicFCM8nZdjwhdQGYidxABQLFa~AVbi1gi9PsxftZpJi2qs~1xz4nlKRqT2Je1f0oVWc5j9VWe~vNquDsJODD8aYOriPGwNGam80Op7EfkRzV8RSq9IkXJ4LFLWDENy4w95RVMVGJjJsYs7844YAGstwXUYxTXCO6rP4QfXjzthVRk2PeiIbU3hDX4XvUxa2qtcX428GPd7LJympIb0Zyc~ubxAokSUkfvIsE7mLbL0IcXm2D778KlBBOdIZO12A4CmZ1q~bZXdb4~1qWEpPiwRZFDaw__',
+                    image: Emoji_5,
                     text: 'отлично'
                 }
             ]
@@ -124,6 +124,8 @@ const Survey = () => {
                     <div>
                         <h1 className="survey__description__title">
                             {questions[currentQuestion].question}
+                            <br />
+                            <img src={Flower} alt="" />
                         </h1>
                         <div className="survey__description__photos">
                             {questions[currentQuestion].answers.map((answer, index) => (
@@ -143,9 +145,13 @@ const Survey = () => {
     } else {
         // Показываем сообщение о завершении опроса
         return (
+            //<div>
+            //    <h1>Спасибо за участие в опросе!</h1>
+            //    <h2>Ваши ответы: {answers.map((answer) => questions[answer].question).join(', ')}</h2>
+            //</div>
             <div>
-                <h1>Спасибо за участие в опросе!</h1>
-                <h2>Ваши ответы: {answers.map((answer) => questions[answer].question).join(', ')}</h2>
+                <h1>Ваши ответы приняты, результаты будут отправлены вам на почту!</h1>
+                <h2>Спасибо за участие в опросе</h2>
             </div>
         );
     }

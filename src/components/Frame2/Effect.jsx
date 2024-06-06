@@ -46,7 +46,7 @@ const Effect = () => {
                 <p>На основе исследования <font color='#961AB5'>15 235 148</font> тренировок <br /> пользователей CodeLab</p>
             </div>
             <div className="effect__button">
-                <Button />
+            <Button />
             </div>
         </div>
     );

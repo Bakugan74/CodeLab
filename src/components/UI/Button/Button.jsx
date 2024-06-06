@@ -5,7 +5,7 @@ import './Button.scss'
 const Button = () =>{
     return(
         <div className="wrapper-button">
-            <Link to={'SurveyPage'} className="button" style={{ color: 'white'}}>
+            <Link to={'DiagnosticPage'} className="button" style={{ color: 'white'}}>
 					<p>Начать тренеровку</p>
             </Link>
         </div>  

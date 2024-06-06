@@ -4,20 +4,17 @@ import Header from '../components/Header/Header.jsx';
 import Training from '../components/Training/Training.jsx';
 import Benefits from '../components/Benefits/Benefits.jsx';
 import Footer from '../components/Footer/Footer.jsx';
+import Diagnostic from '../components/Diagnostic/Diagnostic.jsx';
 
 
 
-const Layout = () => {
+const DiagnosticPage = () => {
 	return (
 		<>
-			<Header />
-            <Effect />
-			<Benefits />
-			<Training />
-			<Footer />
+			<Diagnostic />
 
 		</>
 	);
 };
 
-export default Layout;
+export default DiagnosticPage;
