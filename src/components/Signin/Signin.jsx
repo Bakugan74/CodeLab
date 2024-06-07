@@ -23,7 +23,7 @@ const Signin = () => {
 
             <div className="signin__description"> 
                 <h2>Вход на сайт</h2>
-                <form className='signin__description__form'  action="">
+                <form className='signin__description__form'  action="post">
 
                     <input className='signin__description__input' type="text" placeholder='E-mail'/> <br />
 
@@ -40,7 +40,9 @@ const Signin = () => {
             </div>
             <br /><br />
             <div className="signin__have-account">
-                <p>Новый пользователь? <a href="">Зарегистрируйтесь</a><br />и начните заниматься прямой сейчас. <br />Или войдите через социальную сеть.</p>
+                <p>Новый пользователь? <a href={'SignupPage'}>Зарегистрируйтесь</a><br />и начните заниматься прямой сейчас. 
+                {/* <br />Или войдите через социальную сеть. */}
+                </p>
             </div>
 
         </div>

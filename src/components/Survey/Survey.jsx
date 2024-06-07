@@ -8,6 +8,8 @@ import Emoji_3 from '../Images/survey_emoji_3.png';
 import Emoji_4 from '../Images/survey_emoji_4.png';
 import Emoji_5 from '../Images/survey_emoji_5.png';
 import Flower from "../Images/survey_flower.png";
+import Header from '../Header/Header';
+import SignupPage from '../../Pages/Signup';
 
 const Survey = () => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -20,7 +22,7 @@ const Survey = () => {
 
     const questions = [
         {
-            question: 'Как вы видите развитие?',
+            question: 'Сначала давайте выясним, что вы хотите улучшить в своей жизни. Например, как вы оцениваете своё личностное развитие?',
             answers: [
                 {
                     image: Emoji_1,
@@ -45,7 +47,7 @@ const Survey = () => {
             ]
         },
         {
-            question: 'личностное развитие?',
+            question: 'Насколько вас это беспокоит?',
             answers: [
                 {
                     image: Emoji_1,
@@ -70,7 +72,82 @@ const Survey = () => {
             ]
         },
         {
-            question: 'Как вы оцениваете своё личностное развитие?',
+            question: 'А как вы оцениваете свои успехи в карьере и IT?',
+            answers: [
+                {
+                    image: Emoji_1,
+                    text: ' очень плохо'
+                },
+                {
+                    image: Emoji_2,
+                    text: 'плохо'
+                },
+                {
+                    image: Emoji_3,
+                    text: 'удвовлетворительно'
+                },
+                {
+                    image: Emoji_4,
+                    text: 'хорошо'
+                },
+                {
+                    image: Emoji_5,
+                    text: 'отлично'
+                }
+            ]
+        },
+        {
+            question: 'Как у вас дела с образованием?',
+            answers: [
+                {
+                    image: Emoji_1,
+                    text: ' очень плохо'
+                },
+                {
+                    image: Emoji_2,
+                    text: 'плохо'
+                },
+                {
+                    image: Emoji_3,
+                    text: 'удвовлетворительно'
+                },
+                {
+                    image: Emoji_4,
+                    text: 'хорошо'
+                },
+                {
+                    image: Emoji_5,
+                    text: 'отлично'
+                }
+            ]
+        },
+        {
+            question: 'Как ваше окружение способствует вашему личностному развитию в вашей карьере?',
+            answers: [
+                {
+                    image: Emoji_1,
+                    text: ' очень плохо'
+                },
+                {
+                    image: Emoji_2,
+                    text: 'плохо'
+                },
+                {
+                    image: Emoji_3,
+                    text: 'удвовлетворительно'
+                },
+                {
+                    image: Emoji_4,
+                    text: 'хорошо'
+                },
+                {
+                    image: Emoji_5,
+                    text: 'отлично'
+                }
+            ]
+        },
+        {
+            question: 'И последний вопрос: как вы оцениваете своё финансовое положение?',
             answers: [
                 {
                     image: Emoji_1,
@@ -132,9 +209,10 @@ const Survey = () => {
                                 <div className='survey__description__logos' key={index}>
                                     <img
                                         src={answer.image}
-                                        alt={answer.text}
+
                                         onClick={() => handleAnswerClick(index)}
                                     />
+                                    <p>{answer.text}</p>
                                 </div>
                             ))}
                         </div>
@@ -149,9 +227,10 @@ const Survey = () => {
             //    <h1>Спасибо за участие в опросе!</h1>
             //    <h2>Ваши ответы: {answers.map((answer) => questions[answer].question).join(', ')}</h2>
             //</div>
-            <div>
+            <div className='survey__end'>
                 <h1>Ваши ответы приняты, результаты будут отправлены вам на почту!</h1>
                 <h2>Спасибо за участие в опросе</h2>
+                <p><a href={'SignupPage'}>перейти к регистрации</a></p>
             </div>
         );
     }

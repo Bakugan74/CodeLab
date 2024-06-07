@@ -5,9 +5,13 @@ import './SignupButton.scss'
 const SignupButton = () =>{
     return(
         <div className="wrapper-button">
-            <Link to={'SigninPage'} className="signupbutton" style={{ color: 'white'}}>
+
+            <div >
+            <a href={'SigninPage'} className="signupbutton"><p>Зарегистрироваться</p></a>
+            </div>
+            {/* <Link to={'SigninPage'} className="signupbutton" style={{ color: 'white'}}>
 					<p>Зарегистрироваться</p>
-            </Link>
+            </Link> */}
         </div>  
     )
 }

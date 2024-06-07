@@ -32,7 +32,7 @@ const Signup = () => {
                 <SignupButton />
             </div> <br />
             <div className="signup__have-account">
-                <a href="#" className="signup__account-link">у вас есть аккаунт?</a>
+                <a href={'SigninPage'} className="signup__account-link">у вас есть аккаунт?</a>
             </div>
             <br /><br />
 

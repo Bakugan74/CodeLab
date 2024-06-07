@@ -6,8 +6,6 @@ import SurveyPage from "./Pages/Survey"
 import DiagnosticPage from "./Pages/Diagnostic"
 import SigninPage from "./Pages/Signin";
 import SignupPage from "./Pages/Signup";
-import Signin from "./components/Signin/Signin";
-
 
 
 
