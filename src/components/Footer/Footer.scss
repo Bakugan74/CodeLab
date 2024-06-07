@@ -1,24 +1,19 @@
 .footer{
-
     &__img{
         margin-top: 100px;
         display:flex;
         justify-content: center;
-
         &__logo{
             width: 150px;
             border-radius: 50%;
         }
-
     }
     &__wrapper{
         display: flex;
         justify-content: center;
-
     }
     &__item{
         padding: 4%;
-
         &__title{
             list-style-type: none; 
             text-decoration: none;
@@ -39,7 +34,6 @@
         &__massengers{
             display: flex;
             justify-content: center;
-
             &__logo{
                 padding: 10px
             }

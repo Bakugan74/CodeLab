@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 import Button from '../UI/Button/Button';
 import './Header.scss';
@@ -32,8 +33,11 @@ const Header = () => {
             <div className="header__button">
                 <Button />
             </div>
-            <div className="header__have-account">
-                <a href="#" className="header__account-link">У меня уже есть аккаунт</a>
+            <div className="header__have-account" >
+            <Link to={'SigninPage'} className="header__account-link" style={{ color: 'white'}}>
+                    <p>У меня уже есть аккаунт</p>
+                </Link>
+
             </div>
         </div>
     );

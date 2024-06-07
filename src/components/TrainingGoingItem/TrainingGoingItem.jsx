@@ -5,8 +5,6 @@ import Trainings2 from '../Images/trainings2.png'
 import Trainings3 from '../Images/trainings3.png'
 
 const TrainingGoingItem = () => {
-
-
     const TrainingGoingArticles = [
         {
             image: Trainings1,
@@ -24,13 +22,11 @@ const TrainingGoingItem = () => {
             description: "После прохождений каждого курса вы можете смотреть насколько вы преисполнились в данной сфере, а на какие аспекты стоит больше обращать внимание.",
         }
     ];
-
     return(
             <div className='TrainingGoingItem'>
                 {TrainingGoingArticles.map((article, index) => (
                     <div key={index} className='TrainingGoingItem__wrapper'>
                         <img className='TrainingGoingItem__image' src={article.image} alt="" />
-                    
                         <div className='TrainingGoingItem__title'>
                             <p>{article.title}</p>
                         </div>

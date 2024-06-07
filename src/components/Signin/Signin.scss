@@ -1,0 +1,67 @@
+.signin {
+    background-image: url('../Images/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: white;
+    height: 970px;
+    &__wrapper{
+        display: flex;
+    }
+    &__logo {
+        
+        margin-top: 10px;
+        margin-left: 10px;
+        img{
+            width: 250px;
+            border-radius: 50%;
+        }
+    }
+    &__info {
+        margin-left: 10px;
+        margin-top: 50px;
+        &__title {
+            font-size: 48px;
+        }
+        &__subtitle{
+            font-size: 24px;
+        }
+    }
+    &__description{
+        margin-top: 50px;
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+        &__input{
+            width: 500px;
+            height: 30px;
+            padding: 10px;
+            margin-top: 30px;
+        }
+
+    
+
+        h1{
+            font-size: 60px;
+
+        }
+        h2{
+            font-size: 34px;
+        }
+    }
+    &__button{
+        margin-top: 50px;
+    }
+    &__have-account{
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: none;
+            color:inherit;
+        
+    }
+    &__account-link{
+        text-decoration: none;
+        color:inherit;
+    }
+}
+

@@ -8,19 +8,12 @@ import Signin from '../components/Signin/Signin.jsx';
 
 
 
-const Layout = () => {
+const SigninPage = () => {
 	return (
 		<>
-			<Header />
-            <Effect />
-			<Benefits />
-			<Training />
-			<Footer />
-			<Signin/>
-
-
+			<Signin />
 		</>
 	);
 };
 
-export default Layout;
+export default SigninPage;
