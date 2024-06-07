@@ -6,6 +6,8 @@ import SurveyPage from "./Pages/Survey"
 import DiagnosticPage from "./Pages/Diagnostic"
 import SigninPage from "./Pages/Signin";
 import SignupPage from "./Pages/Signup";
+import TrainersPage from "./Pages/Trainers";
+import AccountPage from "./Pages/Account";
 
 
 
@@ -18,6 +20,10 @@ function App() {
 			<Route path="DiagnosticPage" element={< DiagnosticPage/>}></Route>
 			<Route path="SigninPage" element={< SigninPage/>}></Route>
 			<Route path="SignupPage" element={< SignupPage/>}></Route>
+			<Route path="TrainersPage" element={< TrainersPage/>}></Route>
+			<Route path="AccountPage" element={< AccountPage/>}></Route>
+
+
 
 
 		</Routes>

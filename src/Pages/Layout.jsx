@@ -6,6 +6,9 @@ import Benefits from '../components/Benefits/Benefits.jsx';
 import Footer from '../components/Footer/Footer.jsx';
 import Signin from '../components/Signin/Signin.jsx';
 import Signup from '../components/Signup/Signup.jsx';
+import Trainers from '../components/Trainers/Trainers.jsx';
+import Account from '../components/Account/Account.jsx';
+
 
 
 
@@ -19,6 +22,8 @@ const Layout = () => {
 			<Footer />
 			<Signin/>
 			<Signup/>
+			<Trainers/>
+			<Account/>
 
 
 		</>
