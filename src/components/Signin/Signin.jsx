@@ -21,7 +21,6 @@ const Signin = () => {
                 
             </div>
 
-
             <div className="signin__description"> 
                 <h2>Вход на сайт</h2>
                 <form className='signin__description__form'  action="">
@@ -32,17 +31,17 @@ const Signin = () => {
                 </form>
             </div>
 
-
             <div className="signin__button">
                 <SigninButton />
             </div> <br />
 
-        
             <div className="signin__have-account">
                 <a href="#" className="signin__account-link">Забыли пароль?</a>
             </div>
             <br /><br />
-
+            <div className="signin__have-account">
+                <p>Новый пользователь? <a href="">Зарегистрируйтесь</a><br />и начните заниматься прямой сейчас. <br />Или войдите через социальную сеть.</p>
+            </div>
 
         </div>
     );
