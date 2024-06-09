@@ -8,6 +8,7 @@ import Signin from '../components/Signin/Signin.jsx';
 import Signup from '../components/Signup/Signup.jsx';
 import Trainers from '../components/Trainers/Trainers.jsx';
 import Account from '../components/Account/Account.jsx';
+import Shop from '../components/Shop/Shop.jsx';
 
 
 
@@ -22,8 +23,7 @@ const Layout = () => {
 			<Footer />
 			<Signin/>
 			<Signup/>
-			<Trainers/>
-			<Account/>
+			<Shop/>
 
 
 		</>

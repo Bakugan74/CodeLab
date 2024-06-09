@@ -6,8 +6,6 @@ const Account = () => {
     return (
         <div className="account">
 
-
-
             <div className='account__wrapper'>
                 <Navbar/>
             </div>
@@ -27,12 +25,7 @@ const Account = () => {
 
                 </div>
                 <br />
-
-
-
             </div>
-
-
             <div className='account__mainwrapper__end'>
 
             </div>

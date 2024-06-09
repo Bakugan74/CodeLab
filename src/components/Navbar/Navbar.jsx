@@ -9,15 +9,15 @@ const Navbar = () => {
                 <div className='navbar__menu'>
                     <ul>
 
-                        <li><a href=""> Главная</a> </li>
+                        <li><a href={'MajorPage'}> Главная</a> </li>
                         <li><a href={'TrainersPage'}> Тренажёры</a></li>
-                        <li><a href=""> Мои покупки</a></li>
-                        <li><a href=""> Магазин</a></li>
+                        <li><a href={'GoodsPage'}> Мои покупки</a></li>
+                        <li><a href={'ShopPage'}> Магазин</a></li>
                         <li><a href={'AccountPage'}> Личный кабинет</a></li>
                     </ul>
                 </div>
                 <div className='navbar__menu'>
-                  <p><a href="">Выйти</a></p>
+                  <p><a href={'SigninPage'}>Выйти</a></p>
                 </div>
 
 
